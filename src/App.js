@@ -1,12 +1,16 @@
 import React from "react";
-
+import allCountryScores from "./scores";
+import HighScores from "./High-scores";
+import "./App.css"
 
 function App() {
-  return (
-    <div className="App">
-     
-    </div>
-  );
+  
+      return (
+        <div>
+          <HighScores scores={allCountryScores} />
+        </div>
+      );
+  
 }
 
 
