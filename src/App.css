@@ -1,50 +1,87 @@
-body{
-  padding: 20px 20px  30px 20px;
-  margin: 20px 80px 50px 20;
-}
-
-.outer{
-  padding: 20px 50px 20px 20px;
-  margin: 20px 20px 20px 20px;
-}
-
-.high-scores {
+.App {
   text-align: center;
- border: solid rgb(21, 25, 239);
-  
+}
+
+#root {
+  margin: 5rem;
+  word-spacing: 8px;
+}
+
+.header {
+  color: rgb(48, 163, 229);
+}
+
+.mainContainer {
+  border: 2px blue solid;
+  padding: 1rem;
+  text-align: center;
+  width: 32rem;
+  margin: auto;
+  display: grid;
+}
+
+.score {
+  margin-right: auto;
 }
 
 .table-wrapper {
-padding: auto;
-margin: auto;
-  width: fit-content; 
+  border: 10px lime solid;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+  padding: 1rem;
+  
+}
+
+.country {
+  padding-top: 1rem;
+  color: rgb(48, 163, 229);
+}
+
+.table {
+  border: 2px black solid;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.result {
+  border-bottom: 2px #000000 solid;
+  margin-bottom: 10px;
+  display: flex;
+  justify-items: auto;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.score {
+  color: rgb(108, 14, 14);
+  margin: 1rem;
+  font-size: large;
+}
+.name{
   text-align: center;
-  border: 10px solid rgb(52, 239, 52);
- 
+  font-size: large;
+  margin: 1rem;
 }
 
-td{
-  border: 1px solid black;
-}
-
-tr {
-  width: 100%;
-}
-
-th {
-  /* position: sticky; */
+.button {
+  background-color: lime;
   color: black;
-
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: .4rem;
 }
 
-td:first-child,
-th:first-child {
-  width: 65px;
+.button:hover {
+  background-color: rgb(39, 164, 83);
+  color: white;
 }
-
-h1 {
- color: black;
-}
-
-
-
